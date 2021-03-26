@@ -4,14 +4,17 @@
 
 <title>Module 3</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+
 
 </head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+
 <body>
 
 
@@ -19,25 +22,96 @@
   <div class="container-fluid">
 
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
       <a class="navbar-brand" href="#">Food, LLC</a>
+      <p class="tagline"><br>Jo Khaaye,Kahe Wah!</br></p>
     </div>
-<div class="collapse" id="myNavbar">
-      <ul class="nav navbar-nav visible-xs">
-        <li><a class="menu-item" href="#">Chicken</a></li>
-        <li><a class="menu-item" href="#">Beef</a></li> 
-        <li><a class="menu-item" href="#">Sushi</a></li> 
-      </ul>
+    <div class="about-us">
+      <p><a href=#>About Us</a></p>
     </div>
+    <div class="dropdown">
+    <button class="dropbtn"><p>Home</p>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="#">News</a>
+      <a href="#">Forum</a>
+      </div>
+      <style>
+        .dropdown {
+  float: right;
+  overflow: hidden;
+}
 
-  </div>
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  text-align: center;
+  float: center;
+  color: #97caef;
+  font-family:"Verdana",sans-serif;
+  font-style: bold;
+  padding: 8px;
+  margin: 7px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #55bcc9;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #3feee6;
+  text-align: right;
+  min-width: 140px;
+  min-height: 110px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+    </div>
+  </div> 
+
 </nav>
+<div style="background-image:url('scene_dining.jpg');
+width:auto;
+background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: content-box;">
+  <style class="footer">
+    .footer-dark{
+  position: static;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  background-color:black ;
+  color: white;
+  text-align: center;
+}
 
-<h1 class="main-title">Our Menu</h1>
+
+</style>
+<h1 class="main-title">OUR MENU</h1>
 
 
 
@@ -45,28 +119,188 @@
 
   <div class="col-lg-4 col-md-6 col-sm-12">
     <div class="content-box">
-      <p class="item-name">Chicken</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
+      <p class="item-name">Veg and Breads
+      <br><a href="#hide" id="hide">+</a>
+<a href="#/" id="show">-</a></br></p>
+      <p><ul>
+        <br><h4>ROTIS</h4></br>
+        <li>Butter Naan</li>
+        <li>Tandoori Roti</li>
+        <li>Chapati</li>
+        <li>Makki Di Roti</li>
+        <li>Aloo Parantha</li>
+        <li>Paneer Parantha</li>
+        <li>Lachha Parantha</li>
+        <li>Roomali Roti</li>
+        <li>Missi Roti</li>
+        <li>Assorted Indian Breads Basket</li>
+        <li>Kashmiri Breads Basket</li>
+        <br><h4>VEG ITEMS</h4></br>
+        <li>Vada Pav</li>
+        <li>Bhel Puri</li>
+        <li>Vegetable Biryani</li>
+        <li>Navratan Korma</li>
+        <li>Avial</li>
+        <li>Idli</li>
+        <li>Kanjeevaram Idli</li>
+        <li>Masala Dosa</li>
+        <li>Pav Bhaji</li>
+        <li>Andhra Pesarattu</li>
+        <li>Baingan Bharta</li>
+        <li>Undhiyo</li>
+        <li>Marathi Veg Thali</li>
+        <li>Misal Pav</li>
+        <li>Pithla Bhakri</li>
+       <li>Plain Rice</li>
+       <li>Kadhi Chawal</li>
+       <li>Mirchi Bajji</li>
+       <li>Dal-Baati-Churma</li>
+       <li>Chole Bhature</li>
+       <li>Gujarati Veg Thali</li>
+       <li>Rajasthani Veg Thali</li>
+       <li>Food,LLC Special Veg Thali</li>
+       <li>Lassi</li>
+       <li>Masala Chaas</li>
+       <li>Khaman Dhokla</li>
+       <li>Khandvi</li>
+       <li>Sabudana Khichdi</li>
+       <li>Dal Khichdi</li>
+       <li>Puri Aloo</li>
+       <li>Kashmiri Dum Aloo</li>
+       <li>Kachori</li>
+       <li>Aloo Samosa</li>
+       <li>Litti Chokha</li>
+       <li>Pongal</li>
+       <li>Rajma Chawal</li>
+       <li>Boondi Raita</li>
+      </ul>
+        <a href="#top">(Back to Top)</a></p>
     </div>
-  </div>
+</div>
 
   <div class="col-lg-4 col-md-6 col-sm-12">
     <div class="content-box">
-      <p class="item-name">Beef</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
+      <p class="item-name">Non-veg
+      <br><a href="#hide" id="hide">+</a>
+<a href="#/" id="show">-</a></br></p>
+      
+      <p><ul>
+        <li>Chicken Tandoori</li>
+        <li>Mutton Hyderabadi Biryani</li>
+        <li>Chicken Avadhi Biryani</li>
+        <li>Kolkata Chicken Biryani</li>
+        <li>Mutton Chops</li>
+        <li>Galouti Kebab</li>
+        <li>Anda Curry</li>
+        <li>Non-veg Kebab Platter</li>
+        <li>Shorshe Ilish</li>
+        <li>Kosha Mangsho</li>
+        <li>Meen Polichathu</li>
+        <li>Andhra Naatu Kodi Pulusu</li>
+        <li>Prawn Fry Masala</li>
+        <li>Food, LLC Special Fish Kebab Platter</li>
+        <li>Food, LLC Special Chicken Masala</li>
+        <li>Chicken Chettinad</li>
+        <li>Crab Masala Curry with Bhakri</li>
+        <li>Goan non-veg Thali</li>
+        <li>Bengali non-veg Thali</li>
+        <li>Hyderabadi Mutton Haleem</li>
+        <li>Patthar Ka Gosht</li>
+        <li>Kakori Kebab</li>
+        <li>Kashmiri Rogan Josh</li>
+        <li>Kashmiri Rista</li>
+        <li>Goshtaba</li>
+        <li>Tabak Maaz</li>
+        <li>Mutton Dhansak</li>
+        <li>Lagan Nu Cutlet</li>
+        <li>Patra ni Machhi</li>
+        <li>Parsi Akuri</li>
+        <li>Anda Bhurji</li>
+        <li>Rajasthani Laal Maas</li>
+        <li>Prawn Balchao</li>
+        <li>Chicken Xacuti</li>
+        <li>Goan Fish Curry with Rice</li>
+        <li>Doi Machh</li>
+        <a href="#top">(Back to Top)</a></p>
+      </ul>
     </div>
-  </div>
-
+</div>
 
   <div class="col-lg-4 col-md-12 col-sm-12">
     <div class="content-box">
-      <p class="item-name">Sushi</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
+      <p class="item-name">Dessert<br><a href="#hide" id="hide">+</a>
+<a href="#/" id="show">-</a></br></p>
+      
+      <p><ul>
+        <li>Kaju Katli</li>
+        <li>Payasam</li>
+        <li>Rabri Jalebi</li>
+        <li>Gulab Jamun with Rabri</li>
+        <li>Pannacotta Ice Cream</li>
+        <li>Cassatta</li>
+        <li>Puran Poli</li>
+        <li>Malpua</li>
+        <li>Besan Laddu</li>
+        <li>Rosogulla</li>
+        <li>Bengali Sandesh</li>
+        <li>Soan Papdi</li>
+        <li>Kulfi</li>
+        <li>Plain Gulab Jamun</li>
+        <li>Mishti Doi</li>
+        <li>Chomchom</li>
+        <li>Chawal Ki Kheer</li>
+        <li>Sheermal</li>
+        <li>Sabudana Ki Kheer</li>
+        <li>Rasmalai</li>
+        <li>Balushahi</li>
+        <li>Gaajar Ka Halwa</li>
+        <li>Kheer Kadam</li>
+        <li>Rajasthani Ghevar</li>
+        <li>Kalakand</li>
+        <li>Plain Jalebi</li>
+        <li>Imarti</li>
+        <li>Khirmohan</li>
+        <li>Mohanthal</li>
+        <li>Mysore Pak</li>
+        <li>Sweet Pongal</li>
+        <li>Pati Shapta</li>
+        <li>Falooda</li>
+        <li>Ice-cream Falooda</li>
+        <li>Ravo</li>
+        <li>Lagan Nu Custard</li>
+        <a href="#top">(Back to Top)</a></p>
     </div>
-  </div>
-
 </div>
 
+</div>
+<div class="footer-dark">
+  <div class="contain">
+    <style>
+      #footer-info,.row
+      {
+        padding: 20px;
+        margin: 20px;
+      }
+    </style>
+    <div id="footer-info">
+      <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+      <h3>Contacts</h3>
+      <p><br>Phone no: 9152106461,9372335193,9391088830
+        <br> Email at: abhinavkishorem9@gmail.com</p>
+     <div>
+      <div class="col-md-12 col sm-12 col-xs-12">
+        <p><br>Address: Flat no: C-2703, GeeCee Cloud36,
+          <br>Sector-11, Ghansoli, Navi Mumbai,
+          <br>Maharashtra, India-400701</p>
+        </div>
+       <div class="col-md-12 col-sm-12 col-xs-12">
+      <p><small>&copy; Copyright 2021, Food,LLC. All Rights Reserved</small></p>
+     </div>
+   </div>
+ </div>
+</div>
+</div>
 
 </body>
 </html>
